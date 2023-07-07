@@ -12,7 +12,7 @@ url = "https://www.alphavantage.co/query"
 
 params = {
     "function": "TIME_SERIES_DAILY_ADJUSTED",
-    "symbol": "TSLA",
+    "symbol": STOCK,
     "apikey": password.stockApiKey
 }
 
